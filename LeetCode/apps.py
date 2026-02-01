@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class LeetcodeConfig(AppConfig):
-    name = 'LeetCode'
+    name = 'leetcode'

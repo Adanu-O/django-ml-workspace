@@ -3,3 +3,22 @@ __pycache__/
 *.pyc
 db.sqlite3
 .env
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Django
+*.sqlite3
+staticfiles/
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+Thumbs.db

@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-^k*beze#q-sfa=8kxz7vn0jgn*5jb*_5xfy-2qfm)8xa1cm54d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -38,9 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
-     'RentPrediction',
-    'LeetCode',
-    'QITsol',
+     'rentprediction',
+    'leetcode',
+    'qitsol',
 ]
 
 MIDDLEWARE = [
